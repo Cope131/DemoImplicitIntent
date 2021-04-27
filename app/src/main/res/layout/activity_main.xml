@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:gravity="bottom|end"
-    android:paddingHorizontal="20dp"
+    android:gravity="center|end"
+    android:paddingHorizontal="40dp"
     android:paddingVertical="30dp">
 
 <!--    <EditText-->
@@ -23,8 +23,8 @@
         android:id="@+id/textField"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="100dp"
-        android:hint="Email Message">
+        android:layout_marginBottom="30dp"
+        android:hint="Message">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/message_edit_text"
